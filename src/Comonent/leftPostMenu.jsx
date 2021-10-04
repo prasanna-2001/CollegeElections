@@ -1,32 +1,43 @@
 import React, { useState, useEffect } from "react";
 
 
-const LeftPostMenu = () => {
-  
+const LeftpostMenu = () => {
+  const [activeSection, setActiveSection] = useState("");
+  useEffect(() => {
+    setActiveSection(document.location.hash);
+  }, []);
   return (
-    <div class="LeftpostMenu" style={{ position: "absolute", left: 0 }}>
+    <div className="LeftpostMenu" style={{ position: "", left: 0 }}>
       <div className="brandName" >
         Posts
       </div>
       <nav className="postlist">
         <ul type="none">
           <a href="#president">
-            <li class="borderBottom">
+            <li
+            className={activeSection === "#about" ? "activeSection" : null}
+              onClick={() => setActiveSection("#about")}>
             President
             </li>
           </a>
           <a href="#vicepresident">
-            <li class="borderBottom">
+            <li
+            className={activeSection === "#about" ? "activeSection" : null}
+              onClick={() => setActiveSection("#about")}>
              vice President
             </li>
           </a>
-          <a href="#rsecretary">
-            <li class="borderBottom">
+          <a href="#secretary">
+            <li
+            className={activeSection === "#about" ? "activeSection" : null}
+              onClick={() => setActiveSection("#about")}>
               Secretary
             </li>
           </a>
           <a href="#jointsecretary">
-            <li class="borderBottom">
+            <li
+            className={activeSection === "#about" ? "activeSection" : null}
+              onClick={() => setActiveSection("#about")}>
             joint Secretary 
             </li>
           </a>
@@ -37,4 +48,4 @@ const LeftPostMenu = () => {
   );
 };
 
-export default LeftPostMenu;
+export default LeftpostMenu;

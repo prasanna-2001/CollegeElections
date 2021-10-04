@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 
 const Navbar = () => {
-  
+
   return (
     <header style={{position: "sticky", top: 0  }}>
       <div className="brandName">

@@ -38,52 +38,123 @@ a:active {
 }
 
 h2 {
-  margin: 1.4rem 0 0.8rem 0;
+  margin: 1.4rem 0 0.8rem 30px;
 }
 header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 0.4rem 0.6rem;
+  padding: 0.35rem 0.8rem;
   text-align: center;
-  background-color:#32a832 /*rgb(117, 219, 86)*/;
+  height: 80px;
+  background-color: #32a832 ;/*rgb(117, 219, 86)*/
 }
 header > .brandName {
-  font-size: 2rem;
+  font-size: 2.8rem;
   font-weight: 700;
   cursor: pointer;
 }
 
 header > nav > ul {
   /* flex: 1; */
-  margin-top: 0.8rem;
+  margin-top: 0.9rem;
   list-style: none;
   display: flex;
   justify-content: space-around;
   gap: 2rem;
+  margin-right: 50px;
 }
-
 .mobileMenuList {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bolder;
 }
 
-.LeftpostMenu{
-  background-color: black/*#E7E9EB*/;
-  width: 150px;
-  height: 1000px /*100%*/;
+
+
+
+
+/*riht mid bttom*/
+
+
+#projects {
+  position: static;
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  padding: 10px;
+}
+
+
+.postCardsContainer{
+  /* position: ; */
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
-  /* padding: 0.4rem 0.6rem; */
-  text-align: center;
-  color :white;
-  text-align: left;
+  /* align-items: center; */
+  left: 150px;
+  top: 60px;
+  padding: 10px;
+}
 
+.postCard {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 20px;
+  align-items: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+.postCard> .deignation {
+  font-size: 3rem;
+  padding: 15px;
+}
+.postCard>img {
+  width: 300px;
+  height: 300px;
+  left: 1000px;
+} 
+h3{
+  display: inline-block;
+}
+.commonincard {
+  font-size: 1.5em;
+  margin: 15px 30px 15px 60px;
 }
 
 
 
+
+
+
+
+
+
+
+/*left part*/
+.LeftpostMenu{
+  background-color: black/*#E7E9EB*/;
+  /* width: 150px; */
+  height: 100vw;
+  display: flex;
+  /* flex-direction: column;  */
+  justify-content: space-between;
+  padding: 0.4rem 0.6rem;
+  text-align: center;
+  /* color :rgb(141, 55, 55); */
+  text-align: left;
+  color:white;
+  /* display: flex; */
+  flex-direction: row;
+  /* justify-content: space-between; */
+  /* padding: 0.35rem 0.8rem; */
+  /* text-align: center; */
+  height: 80px;
+  background-color: #000000 
+
+}
+
+
+ 
 .LeftpostMenu > .brandName {
   font-size: 1.3rem;
   font-weight: 700;
@@ -93,50 +164,49 @@ header > nav > ul {
   /* border-bottom: 1px solid rgb(255, 255, 255); */
   padding-left:10px ;
 }
-.postlist{
+
+.postlist > ul{
   font-size: 15px;
   font-weight: bold;
+  margin-top: 0.9rem;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  margin-right: 50px;
 }
-.borderBottom{
-  border-bottom: 1px solid rgb(255, 255, 255);
+.postlist > ul> a >li{
+  /* border-bottom: 1px solid rgb(255, 255, 255); */
   padding-left:10px ;
   margin: 10px 0px 0px 0px;
 }
 
-#projects {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  left: 150px;
-  top: 60px;
-  padding: 10px;
+
+
+/*top button*/
+.topbutton {
+  position: fixed;
+  bottom: 50px;
+  right: 51px;
+  font-size:60px;
 }
-.postCard{
-  display: flex;
-  flex-direction: column;
-  border: 2px solid black;
-  border-radius: 20px;
-  padding: 10px;
-  margin-top: 20px;
-}
-.postCard> .deignation {
-  font-size: 3rem;
-  text-align: left;
-  padding: 15px;
-  top: 0px;
-}
-.postCard>img {
-  position: relative;
-  width: 300px;
-  height: 300px;
-  left: 1000px;
-}
-h3{
-  display: inline-block;
-}
-.commonincard{
-  /* align-items: left; */
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
