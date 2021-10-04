@@ -1,7 +1,7 @@
 import React from "react";
 import PresImg from '../assets/minepic.png'
-import VicePresImg from '../assets/bapu.jpg'
-import SecImg from '../assets/maheshbau.jpg'
+// import VicePresImg from '../assets/bapu.jpg'
+// import SecImg from '../assets/maheshbau.jpg'
 import JPresImg from '../assets/minepic.png'
 
 const President =[
@@ -35,7 +35,7 @@ const VicePresident =[
     
    { 
      id:"0",
-     img:VicePresImg,
+     img:PresImg,
      name : "Ankiush",
      year : "2rd",
      achievements : "gjdgioigjsoigjijjgkdjskldgljklsjjldkslglgjlkslsg;llglgkdfglk    2.jshljsflskdfhlkfhkffkfdkffkjbdlksjflsskkhsfjshpsjghsjsklgsh  3.sjjlskghhdlkhlsgkjshgkdfhsglkhddskhgssgvjhdkjn 4.hsklkdlkfsddlklkgfdklgkl",
@@ -43,7 +43,7 @@ const VicePresident =[
   },
   { 
      id:"1",
-     img:VicePresImg,
+     img:PresImg,
      name : "Rishabh",
      year : "2rd",
      achievements : "gjdgioigjsoigjijjgkdjskldgljklsjjldkslglgjlkslsg;llglgkdfglk    2.jshljsflskdfhlkfhkffkfdkffkjbdlksjflsskkhsfjshpsjghsjsklgsh  3.sjjlskghhdlkhlsgkjshgkdfhsglkhddskhgssgvjhdkjn 4.hsklkdlkfsddlklkgfdklgkl",
@@ -51,7 +51,7 @@ const VicePresident =[
   },
   { 
      id:"2",
-     img:VicePresImg,
+     img:PresImg,
      name : "SammerS",
      year : "2rd",
      achievements : "gjdgioigjsoigjijjgkdjskldgljklsjjldkslglgjlkslsg;llglgkdfglk    2.jshljsflskdfhlkfhkffkfdkffkjbdlksjflsskkhsfjshpsjghsjsklgsh  3.sjjlskghhdlkhlsgkjshgkdfhsglkhddskhgssgvjhdkjn 4.hsklkdlkfsddlklkgfdklgkl",
@@ -63,7 +63,7 @@ const Secretary =[
     
    { 
      id:"0",
-     img:SecImg,
+     img:PresImg,
      name : "Ankiush",
      year : "2rd",
      achievements : "gjdgioigjsoigjijjgkdjskldgljklsjjldkslglgjlkslsg;llglgkdfglk    2.jshljsflskdfhlkfhkffkfdkffkjbdlksjflsskkhsfjshpsjghsjsklgsh  3.sjjlskghhdlkhlsgkjshgkdfhsglkhddskhgssgvjhdkjn 4.hsklkdlkfsddlklkgfdklgkl",
@@ -71,7 +71,7 @@ const Secretary =[
   },
   { 
      id:"1",
-     img:SecImg,
+     img:PresImg,
      name : "Rishabh",
      year : "2rd",
      achievements : "gjdgioigjsoigjijjgkdjskldgljklsjjldkslglgjlkslsg;llglgkdfglk    2.jshljsflskdfhlkfhkffkfdkffkjbdlksjflsskkhsfjshpsjghsjsklgsh  3.sjjlskghhdlkhlsgkjshgkdfhsglkhddskhgssgvjhdkjn 4.hsklkdlkfsddlklkgfdklgkl",
@@ -79,7 +79,7 @@ const Secretary =[
   },
   { 
      id:"2",
-     img:SecImg,
+     img:PresImg,
      name : "SammerS",
      year : "2rd",
      achievements : "gjdgioigjsoigjijjgkdjskldgljklsjjldkslglgjlkslsg;llglgkdfglk    2.jshljsflskdfhlkfhkffkfdkffkjbdlksjflsskkhsfjshpsjghsjsklgsh  3.sjjlskghhdlkhlsgkjshgkdfhsglkhddskhgssgvjhdkjn 4.hsklkdlkfsddlklkgfdklgkl",
